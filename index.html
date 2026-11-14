@@ -30,7 +30,10 @@
       letter-spacing: -.055em;
     }
     p { max-width: 27ch; margin: 1.25rem 0 1.75rem; }
-    a {
+    article { margin: 2rem 0; border-top: 1px solid #a4ad98; padding-top: 1.5rem; }
+    h2 { margin: 0; font-size: 1.35rem; }
+    article p { max-width: none; margin: .5rem 0; }
+    .call {
       display: inline-block;
       padding: .75rem 1rem;
       border-radius: .4rem;
@@ -39,15 +42,20 @@
       font-weight: 650;
       text-decoration: none;
     }
-    a:hover { background: #38594a; }
+    .call:hover { background: #38594a; }
     a:focus-visible { outline: 3px solid #38594a; outline-offset: 4px; }
   </style>
 </head>
 <body>
   <main>
     <h1>Giveaway</h1>
-    <p>Items are free. Call to ask what’s available.</p>
-    <a href="tel:+4540769699">Call +45 40 76 96 99</a>
+    <article>
+      <h2>JYSK LIMFJORDEN bed, 140 × 200 cm</h2>
+      <p>Free. Oak-effect bed frame with three drawers. Mattress included.</p>
+      <p>Sheets and pillows are not included.</p>
+      <a href="https://jysk.dk/sovevaerelse/senge/sengerammer-sengebunde-og-lameller/sengerammer/sengeramme-limfjorden-140x200-vild-natur-egefarve">See the bed frame on JYSK</a>
+    </article>
+    <a class="call" href="tel:+4540769699">Call +45 40 76 96 99</a>
   </main>
 </body>
 </html>
